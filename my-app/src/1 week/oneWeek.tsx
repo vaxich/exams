@@ -4,9 +4,13 @@ import {OneWeekNineQuestion} from "./9_question";
 import {OneWeekEightQuestion} from "./8_question";
 import {OneWeekSevenQuestion} from "./7_question";
 import {OneWeekSixQuestion} from "./6_question";
-
-
+import {OneWeekFiveQuestion} from "./5_question";
+import {OneWeekFourQuestion} from "./4_question";
 import {OneWeekThreeQuestion} from "./3_question";
+import {OneWeekTwoQuestion} from "./2_question";
+import {OneWeekOneQuestion} from "./1_question";
+
+
 
 export function OneWeek() {
     const news1 = [{ //6 вопрос данные
@@ -22,12 +26,19 @@ export function OneWeek() {
         name: "Pavel",
         description: "молодой"
     }
+    const info5 = {
+        age: 39,
+        name: "Pavel",
+        avatarUrl: "link"
+    }
     return (
         <div>
             <h1>Первая неделя</h1>
-            <OneWeekThreeQuestion name={info.name} description={info.description}/>
-
-
+            <OneWeekOneQuestion />
+            <OneWeekTwoQuestion />
+            <OneWeekThreeQuestion />
+            <OneWeekFourQuestion />
+            <OneWeekFiveQuestion age={info5.age} name={info5.name} avatarUrl={info5.avatarUrl}/>
             <OneWeekSixQuestion mainArticle={article} news={news1} />
             <OneWeekSevenQuestion />
             <OneWeekEightQuestion />
