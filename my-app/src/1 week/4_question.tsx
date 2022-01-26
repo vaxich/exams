@@ -1,7 +1,7 @@
 import React from 'react';
 // что МИНИМАЛЬНО ДОСТАТОЧНО нужно дописать с строке в первом RETURN чтобы небыло ошибки
 //
-//country='belarus'
+// country='belarus'
 type PropsType = {
         city: string
         country: string

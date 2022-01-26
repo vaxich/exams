@@ -1,7 +1,7 @@
 import React from 'react';
 
 //что нужно написать вместо XXX YYY ZZZ чтобы увидеть ожидаемый результат. ответ дайте через пробел
-// videoName=props.video.title videoContent=props.video.link videoDescription=props.video.videoDescription
+// videoName=props.video.title videoContent=props.video.link videoDescription=props.video.videoDescription  - не верно
 export const VideoHeader = (props: {videoName: string}) => {
         return <div>
                 😀 {props.videoName}
