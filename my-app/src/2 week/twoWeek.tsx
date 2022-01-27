@@ -6,6 +6,8 @@ import {TwoWeekFourQuestion} from "./4_question";
 import {TwoWeekFiveQuestion} from "./5_question";
 import {TwoWeekSixQuestion} from "./6_question";
 import {TwoWeekEightQuestion} from "./8_question";
+import {TwoWeekNineQuestion} from "./9_question";
+import {User, UsersList} from "./10_question";
 
 
 
@@ -21,6 +23,10 @@ export function TwoWeek() {
             <TwoWeekFiveQuestion/>
             <TwoWeekSixQuestion />
             <TwoWeekEightQuestion />
+            <TwoWeekNineQuestion />
+
+
+            <UsersList />
         </div>);
 
 }
