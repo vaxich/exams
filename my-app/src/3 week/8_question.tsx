@@ -1,7 +1,7 @@
 import React, {MouseEvent} from 'react';
 // Какой тип данных представляет аргумент функции-обработчика?
 // Что надо написать вместо ххх, что бы в консоль вывело true?
-// "object"
+// object
 
 
 export function ThreeWeekEightQuestion() {
@@ -13,7 +13,7 @@ export function ThreeWeekEightQuestion() {
            <div>
                <h2>8 вопрос</h2>
                <button onClick={onClickHandler} >Click</button>
-               <h4>ответ: "object"</h4>
+               <h4>ответ: object</h4>
            </div>
            )
 

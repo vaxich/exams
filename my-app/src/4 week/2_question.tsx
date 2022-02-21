@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 // Что надо написать вместо xxx, чтобы код работал?
-// ()=> {props.deleteUser(props.id)}
+// deleteUser
 type UserType = {
         id: number
         name: string
@@ -15,7 +15,7 @@ function User(props: UserPropsType) {
         const deleteUser = () => props.deleteUser(props.id)
         return (
                 <li>
-                    <button onClick={()=> {props.deleteUser(props.id)}}>Delete</button>
+                    <button onClick={deleteUser}>Delete</button>
                 User {props.name}: {props.age} y.o.
             </li>
         )
@@ -44,7 +44,7 @@ export function FourWeekTwoQuestion() {
                     deleteUser={deleteUser}
                 />)}
             </ul>
-                    <h4>Ответ: в файле</h4>
+                    <h4>Ответ: deleteUser</h4>
         </main>
     )
 }

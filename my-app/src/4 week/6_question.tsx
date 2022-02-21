@@ -1,6 +1,6 @@
 import React, {useState, MouseEvent, ChangeEvent} from 'react';
 // Что надо написать вместо ххх, чтобы инпут был контролируемым?
-// не знаю
+// value={userName}
 
 
 export function FourWeeSixQuestion() {
@@ -11,9 +11,10 @@ export function FourWeeSixQuestion() {
                     <p>{userName}</p>
             <input
                 // xxx
+                value={userName}
                 onChange={(e) => setUserName(e.currentTarget.value)}
             />
-                    <h4>Ответ: не знаю </h4>
+                    <h4>Ответ: в файле </h4>
         </div>
     )
 }

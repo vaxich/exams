@@ -1,7 +1,7 @@
 import React from 'react';
 
 //что нужно написать вместо XXX YYY ZZZ чтобы увидеть ожидаемый результат. ответ дайте через пробел
-// videoName=props.video.title videoContent=props.video.link videoDescription=props.video.videoDescription  - не верно
+// videoName={props.video.title} videoContent={props.video.link} videoDescription={props.video.description}  - не верно
 export const VideoHeader = (props: {videoName: string}) => {
         return <div>
                 😀 {props.videoName}
@@ -22,7 +22,7 @@ export const YoutubeVideo = (props: any) => { //приходит объект vi
         return <div>
                 <VideoHeader videoName={props.video.title} />
             <VideoContent videoContent={props.video.link} />
-            <VideoDescription videoDescription={props.video.videoDescription} />
+            <VideoDescription videoDescription={props.video.description} />
         </div>
     }
 
