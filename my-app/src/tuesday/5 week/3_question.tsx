@@ -1,7 +1,7 @@
 // Что надо вставить вместо XXX, чтобы код работал нормально?
 
 
-//password.length - верно???
+//password.length - верно
 
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';

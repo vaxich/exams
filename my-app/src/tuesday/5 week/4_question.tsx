@@ -1,6 +1,6 @@
 // Что надо вставить вместо XXX, чтобы кнопка отправки комментария стала активной?
-// true - не верно
-// false - 
+// false - верно
+ 
 
 import React, {ChangeEvent, useState} from 'react';
 import ReactDOM from 'react-dom';

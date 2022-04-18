@@ -1,6 +1,6 @@
 // Что надо вставить вместо XXX, чтобы круг менял цвет по клику?
-// getColor - не верно
-// getColor(colors) ???
+
+// getColor(colors) - верно
 
 import React, {ChangeEvent, useState} from 'react';
 import ReactDOM from 'react-dom';

@@ -1,7 +1,7 @@
 import React from 'react';
-import { SixWeekSevenQuestion } from './7_question';
 
-export function SixWeek () {
+
+export function SevenWeek () {
     
     
     
