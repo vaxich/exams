@@ -1,6 +1,6 @@
 //Какой код должен быть написан вместо XXX и YYY в типе //ChangeUserPasswordTypeAT, что бы редьюсер работал?
 //В ответе напишите через пробел: XXX  YYY
-// id:number newPassword:string
+// id:number newPassword:string  - верно
 
 type UserType = {
     id: number

@@ -1,6 +1,6 @@
 //Что надо написать вместо XXX, что бы переменная result содержала значение 5?
 
-// type: "SUB" - верно??
+// type: "SUB" - верно
 
 type ActionType = {
     type: "SUM"|"SUB"|"MULT"|"DIV"

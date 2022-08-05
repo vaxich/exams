@@ -1,3 +1,6 @@
+//Что надо написать вместо XXX чтобы в консоли появилась строка "IT-INCUBATOR"?
+// type: "EXP"  - верно
+
 
 type ActionType = {
   type: "SUM"|"SUB"|"MULT"|"DIV"|"EXP"
@@ -20,11 +23,8 @@ export const calculator = (state: number, action: ActionType): number => {
           return state
   }
 }
-const result = calculator(10, {type: "MULT", payload: 0}) 
+const result = calculator(10, {type: "SUM", payload: 0}) 
 if (!(result - 1)){
   console.log("IT-INCUBATOR")
 }
 
-//Что надо написать вместо XXX чтобы в консоли появилась строка "IT-INCUBATOR"?
-// type: "MULT" - не верно
-// type: "DIV" ???

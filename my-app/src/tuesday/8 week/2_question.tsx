@@ -1,3 +1,5 @@
+//Обработка какого action.type не предусмотрена в функции calculator?
+//"MULT" - верно
 
 type ActionType = {
     type: "SUM"|"SUB"|"MULT"|"DIV"
@@ -17,5 +19,3 @@ export const EightWeekTwoQuestion = (state: number, action: ActionType): number 
     }
 }
 
-//Обработка какого action.type не предусмотрена в функции calculator?
-//"MULT" - верно

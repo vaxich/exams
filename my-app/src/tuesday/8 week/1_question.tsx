@@ -1,5 +1,5 @@
 //Что надо написать вместо ХХХ, чтобы функция calculator работала?
-// action.type - верно??
+// action.type - верно
 type ActionType = {
     type: "SUM"|"SUB"|"MULT"|"DIV"
     payload: number

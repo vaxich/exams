@@ -1,3 +1,5 @@
+//Что вернёт такой вызов функции: calculator(10, {type: "MULT", payload: 2})?
+// 10 - верно
 
 type ActionType = {
     type: "SUM"|"SUB"|"MULT"|"DIV"|"EXP"
@@ -19,6 +21,3 @@ export const calculator = (state: number, action: ActionType): number => {
     }
 }
 
-//Что вернёт такой вызов функции: calculator(10, {type: "MULT", payload: 2})?
-// 20 - не верно
-// 10 - 
