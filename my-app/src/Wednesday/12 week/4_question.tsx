@@ -29,3 +29,4 @@ console.log(newState.user !== state.user)
 
 //Что нужно написать вместо XXX, чтобы корректно обновить имя пользователя и в консоли увидеть:  true true true?
 // {...state, user : {name: action.name}} - не верно
+// {...state, user : {...state.user,name: action.name}} - верно

@@ -56,5 +56,6 @@ ReactDOM.render(<App isAdmin={true}/>, document.getElementById('root'))
 // при нажатии на кнопку "Увеличить на 10 секунд" ?
 
 // Ответ дайте через пробел: 111 222
-// useMemo buttons - не верно
+
+// useMemo isAdmin -  верно
 

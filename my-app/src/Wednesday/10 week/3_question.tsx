@@ -30,7 +30,7 @@ const selector = (state: RootStateType) => state.users.items
 
 const Users = () => {
 
-    const users = store.getState().users.items
+    const users = store.getState().users.items ///XXX
 
     return <ul>
         {users.map(u => <li key={u.id}>{u.name}</li>)}
@@ -50,3 +50,4 @@ ReactDOM.render(<div>
 
 // selector - не верно
 // store.getState().users.items - не верно
+// useSelector(selector) - верно

@@ -6,7 +6,7 @@ export const App = () => {
     const [seconds, setSeconds] = useState(100)
 
     const increaseSeconds = () => setSeconds(seconds + 10)
-    const increaseTemp = useCallback(() => setTemp(temp + 1),[temp])
+    const increaseTemp = useCallback(() => setTemp(temp + 1),[temp])///XXX
 
     return <>
         <TempDisplay temp={temp} increaseTemp={increaseTemp}/>
@@ -42,3 +42,5 @@ ReactDOM.render(<App/>, document.getElementById('root'));
 
 // Пример ответа: useEffect(() => setCounter(count + 1), [count])
 // const increaseTemp = useCallback(() => setTemp(temp + 1),[temp]) - не верно
+// const increaseTemp = useCallback(() => {setTemp(temp + 1) },[setTemp,temp]) - не верно
+// useCallback(() => setTemp(temp + 1),[temp]) - верно
